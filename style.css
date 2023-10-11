@@ -1,0 +1,86 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    background-color: lightblue;
+
+    font-family: "Montserrat", sans-serif;
+   
+}
+
+header{
+    text-align: center;
+    background-color: lightcyan;
+    width: 81.9rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    border: 1rem;
+}
+.text{
+    align-self: center;
+    color: black;
+}
+
+.line{
+    display:flex;
+    margin: 1rem;
+    height: auto;
+    width: auto;
+    justify-content: space-between;
+
+}
+
+.container{
+
+    background-color:white;
+    border-radius: 1rem;
+    border-color: black;
+    border-style:solid;
+    display: flex;
+
+    
+}
+
+.info{
+    height: auto;
+    width: auto;
+    background-color:white;
+    border-radius:1rem ;
+    border-color: black;
+    border-style:solid;
+    margin: 1rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+p.text{
+    font-size: 20pt;
+    align-self: baseline;
+}
+img{
+    height: 31.25rem;
+    width: 28.125rem;
+    border-radius: 0.8rem;
+}
+
+
+.icon {
+
+        width: 4rem;
+        height: 4rem;
+        
+}
+
+.bolsonaro{
+    justify-self: center;
+    width: 30.063rem;
+    height: 15.625rem;
+    cursor: pointer;
+    
+}
+
